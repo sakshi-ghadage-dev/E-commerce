@@ -1,4 +1,4 @@
-let Division = (a , b) => {
+let Division = ({a , b}) => {
 
     return (
         <div>

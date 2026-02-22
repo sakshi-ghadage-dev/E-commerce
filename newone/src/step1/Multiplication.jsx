@@ -1,4 +1,4 @@
-let Multiplication = (a , b) => {
+let Multiplication = ({a , b}) => {
 
     
     return (
