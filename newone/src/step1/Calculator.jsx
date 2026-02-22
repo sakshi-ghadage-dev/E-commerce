@@ -22,7 +22,7 @@ let Calculator=()=>{
                 </div>
             </div>
       
-      <h1>Calculator App</h1>
+      
       <Add a={num1} b={num2}/>
       <Subtraction a={num1} b={num2}/>
       <Multiplication a={num1} b={num2}/>

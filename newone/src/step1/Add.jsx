@@ -1,9 +1,16 @@
+
+import Button from "./Button";
+
 let Add = ({a , b}) => {
 
+    let addition_click=()=>{
+        alert("Addition="+(a+b));
+    }
+
     return (
-        <div>
-            this is Addition {a + b}
-        </div>
+        <>
+            <Button label={"Addition"} fn={addition_click} />
+        </>
     )
 }
 
